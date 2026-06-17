@@ -144,7 +144,7 @@ def _strip_front_matter(lines):
     "Abstract" is robust to the abstract heading already having been removed by
     the boilerplate/TOC pass.)
     """
-    for i, line in enumerate(lines[:40]):
+    for i, line in enumerate(lines[:100]):
         stripped = line.strip()
         if len(stripped) <= _MAX_HEADING_LEN and (
             _INTRO_HEADING.match(stripped) or _SECTION_ONE.match(stripped)
