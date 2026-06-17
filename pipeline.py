@@ -162,19 +162,32 @@ def _trim_end_matter(lines):
     return lines
 
 
-def get_article_snippet(full_text):
-    """Return the FULL cleaned article body (no truncation -- audit H3).
-
-    Pipeline: strip arXiv nav/TOC boilerplate -> strip leading front-matter
-    (title/authors/abstract) -> trim trailing end-matter (acknowledgments,
-    references/bibliography, appendices, supplementary material -- audit M7).
-    The entire remaining article is returned; no character cap is applied.
+def get_article_snippet_without_abstract(full_text):
+    """Return the FULL cleaned article body EXCLUDING the abstract and front matter.
+    
+    Ideal for Style-Transfer Generation Models that only need the core text.
     """
     if not full_text:
         return ""
 
     lines = _strip_boilerplate(full_text.splitlines())
-    lines = _strip_front_matter(lines)
+    lines = _strip_front_matter(lines)  # Cuts off everything before Introduction
+    lines = _trim_end_matter(lines)
+
+    return "\n".join(lines).strip()
+
+
+def get_article_snippet_with_abstract(full_text):
+    """Return the FULL cleaned article body INCLUDING the abstract and front matter.
+    
+    Ideal for Judge LLMs that need full context (Title, Authors, Abstract) 
+    but still require boilerplate and end-matter (references) to be removed.
+    """
+    if not full_text:
+        return ""
+
+    lines = _strip_boilerplate(full_text.splitlines())
+    # SKIPPED: _strip_front_matter(lines) -> Preserves Abstract and Metadata
     lines = _trim_end_matter(lines)
 
     return "\n".join(lines).strip()
