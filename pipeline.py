@@ -144,7 +144,7 @@ def _strip_front_matter(lines):
     "Abstract" is robust to the abstract heading already having been removed by
     the boilerplate/TOC pass.)
     """
-    for i, line in enumerate(lines[:100]):
+    for i, line in enumerate(lines[:200]):
         stripped = line.strip()
         if len(stripped) <= _MAX_HEADING_LEN and (
             _INTRO_HEADING.match(stripped) or _SECTION_ONE.match(stripped)
@@ -154,12 +154,29 @@ def _strip_front_matter(lines):
 
 
 def _trim_end_matter(lines):
-    """Cut everything from the first end-matter heading onward (audit M7)."""
+    """Cut everything from the first end-matter heading onward (audit M7).
+    
+    Added safety guard: severe end-matter cuts should not happen at the very
+    beginning of the paper. We only scan for end-matter headings after the first 30% 
+    of the document lines to avoid false-positive triggers in the abstract/intro.
+    """
+    total_lines = len(lines)
+    # We only start looking for "References/Appendix" after 30% of the paper
+    safe_zone_limit = int(total_lines * 0.3) 
+    
     for i, line in enumerate(lines):
+        # If we are still in the first 30% of the paper, skip checking to prevent nuclear mis-cuts
+        if i < safe_zone_limit:
+            continue
+            
         stripped = line.strip()
         if len(stripped) <= _MAX_HEADING_LEN and _END_MATTER_HEADING.match(stripped):
+            # Found the real end-matter in the latter part of the paper!
             return lines[:i]
+            
     return lines
+
+
 
 
 def get_article_snippet_without_abstract(full_text):
