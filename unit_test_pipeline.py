@@ -5,21 +5,28 @@ import pipeline
 class TestPipeline(unittest.TestCase):
 
     def setUp(self):
-        # Prepare mock raw text mimicking an arXiv HTML text conversion
+        # 根据开头的 arXiv 真实链接 (abs/2602.23363) 结构，模拟出的真实抓取文本
         self.sample_raw_text = (
+            "arXiv:2602.23363 [cs.CL]\n"
+            "Computer Science > Computation and Language\n"
             "Report GitHub Issue\n"
             "Back to arXiv\n"
-            "Some stray title or authors here\n"
+            "Title: A Comprehensive Evaluation of Next-Generation Language Models\n"
+            "Authors: John Doe, Jane Smith\n"
             "Abstract\n"
-            "This is a cool abstract about AI.\n"
-            "1. Introduction\n"
-            "This is the beginning of the real paper content.\n"
-            "It has multiple sentences and paragraph blocks.\n"
-            "2. Methodology\n"
-            "Here is how we built the system.\n"
+            "Recent advancements in large language models have transformed natural language processing. "
+            "In this paper, we present a systematic evaluation framework to test edge-case capabilities. "
+            "Our findings suggest significant gaps remain in complex reasoning tasks.\n"
+            "1 Introduction\n"
+            "The emergence of scale-driven architectures has led to unprecedented breakthroughs in AI. "
+            "However, understanding the exact failure modes requires robust pipeline diagnostics. "
+            "This section outlines the motivating layout of our benchmark suites.\n"
+            "2 Methodology\n"
+            "We built our evaluation pipeline by streaming raw data into standardized text matrices. "
+            "Each token stream is subsequently cleaned using precise boundary filters.\n"
             "References\n"
-            "1. Author A, et al. 2026.\n"
-            "2. Author B, et al. 2025."
+            "[1] A. Author et al., \"Title of the foundational paper,\" Journal of AI, 2026.\n"
+            "[2] B. Scholar, \"Analysis of pipeline metrics,\" arXiv preprint arXiv:2501.0000, 2025."
         )
 
     # -------------------------------------------------------------------------
@@ -128,8 +135,8 @@ class TestPipeline(unittest.TestCase):
         # Should clean boilerplate, front matter (including Abstract), and end-matter
         snippet = pipeline.get_article_snippet_without_abstract(self.sample_raw_text)
         
-        self.assertIn("1. Introduction", snippet)
-        self.assertIn("2. Methodology", snippet)
+        self.assertIn("1 Introduction", snippet)
+        self.assertIn("2 Methodology", snippet)
         self.assertNotIn("Abstract", snippet)
         self.assertNotIn("References", snippet)
         self.assertNotIn("Report GitHub Issue", snippet)
@@ -138,8 +145,8 @@ class TestPipeline(unittest.TestCase):
         # Should clean boilerplate and end-matter, but preserve front matter/Abstract
         snippet = pipeline.get_article_snippet_with_abstract(self.sample_raw_text)
         
-        self.assertIn("Abstract", snippet)
-        self.assertIn("1. Introduction", snippet)
+        self.assertIn("Recent advancements in large language models", snippet)
+        self.assertIn("1 Introduction", snippet)
         self.assertNotIn("References", snippet)
         self.assertNotIn("Report GitHub Issue", snippet)
 
