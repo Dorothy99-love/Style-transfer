@@ -1,0 +1,539 @@
+title,abstract,license,url,html_url,date,GPT,Manual Score GPT,Overall GPT,G-Eval GPT,Mixtral,Manual Score Mixtral,Overall Mixtral,G-Eval Mixtral,Llama,Manual Score Llama,Overall Llama,G-Eval Llama
+The Universal Eccentricity Distribution for Dynamical Gravitational-Wave Merger Channels,"We argue that all dynamical astrophysical black hole merger channels are expected to result in a common eccentricity distribution at gravitational wave (GW) frequencies relevant for LIGO/Virgo/KAGRA (LVK) in the high eccentricity limit. This follows from the large separation of scales between the GW regime required for creating eccentric mergers in LVK, and the underlying astrophysical formation environment. Our analytical solution shows exceptional agreement with numerical studies. This finding has important implications for both theoretical studies and ongoing searches for eccentric GW sources.",http://creativecommons.org/licenses/by/4.0/,https://arxiv.org/abs/2602.20110,https://arxiv.org/html/2602.20110v1,2026-02-23,"When LIGO and its partner observatories listen for gravitational waves, they mostly hear pairs of black holes spiraling together in nearly perfect circles. But a few events hint at something messier: “eccentric” orbits, where the black holes swoop past each other on stretched, oval paths. Eccentric mergers are exciting because they usually point to crowded, chaotic environments—like star clusters or triple-star systems—rather than quiet, isolated binaries.
+
+This paper asks a practical question: if a merger is still eccentric when it enters LIGO’s sensitive band (around tens of hertz), what eccentricities should we expect? Many studies assume simple guesswork distributions, but the authors argue that’s not natural.
+
+Their key idea is the “pinhole regime.” To stay eccentric at detectable frequencies, two black holes must pass extremely close on their first encounter—through a tiny “target area” compared with the much larger scales of their birth environment. That makes the final close approach essentially random, wiping out most memory of how the pair formed. Using this scale-separation argument, the authors derive a universal high-eccentricity distribution and confirm it with N-body simulations of binary–single encounters and hierarchical triples. The result provides a better benchmark for future eccentricity searches—and also implies that, at high eccentricity, eccentricity alone can’t reliably tell formation channels apart.",C：0.9 ST：0.9 N：0.9 (Quite easy to understand),0.9,0.8,"**The Hidden Clues in Cosmic Collisions: Why Black Hole Mergers Might All Follow the Same Dance**
+
+Imagine two black holes spiraling toward each other—not in a perfect circle, but in a wild, elongated orbit, like a comet streaking past the Sun. These ""eccentric"" mergers are rare but could hold the key to understanding how black holes form in the wild chaos of space. For years, scientists assumed these orbits followed a random pattern—but new research suggests a surprising truth: *across different cosmic environments, they might all obey the same mysterious ""rule.""*
+
+The discovery comes from the **LIGO-Virgo-KAGRA (LVK) collaboration**, which has detected over 100 black hole mergers since its first gravitational wave detection in 2015. Most of these collisions happen in neat, circular orbits—but a few outliers, like **GW200208** (with its wobbly path) or **GW190521** (a massive, fast-moving pair), hint at a more chaotic past.
+
+So how do black holes end up in these wild orbits? The leading theories involve **stellar crowds**—globular clusters where black holes jostle like billiard balls—or **triple systems**, where a third black hole nudges a pair into a spiral. But here’s the twist: **no matter the environment, the math of their final orbits might be the same.**
+
+### **The ""Pinhole"" Effect: When Cosmic Chaos Simplifies**
+The key lies in the **distance** at which these black holes meet. For an eccentric merger to happen, they must pass *extremely* close—so close that the exact details of their birthplace (a dense cluster, a gas cloud, or a lonely field) don’t matter anymore. Scientists call this the **""pinhole regime""**—like trying to hit a tiny target in a vast stadium. The odds of making it through that ""pinhole"" are random, erasing any memory of where the black holes started.
+
+This randomness leads to a **universal eccentricity distribution**: a predictable pattern where the likelihood of a black hole having a highly elongated orbit follows a specific mathematical shape—**not the flat or skewed assumptions scientists once used.** As one researcher put it, *""It’s like rolling dice: once you’re in the pinhole, the outcome doesn’t care how you got there.""*
+
+### **Why This Matters**
+This discovery could revolutionize how we **hunt for eccentric mergers** with gravitational wave detectors. Right now, scientists search for these signals using guesses about their shape—but if they’re all following the same ""dance,"" future searches can be **far more precise.** Plus, since eccentric mergers are thought to be ""smoking guns"" for chaotic formation channels, this universal rule might help us **tease apart the different stories of black hole birth**—whether they formed in stellar graveyards or gas-rich nurseries.
+
+The catch? This rule only applies to **highly eccentric orbits**—the ones LVK can currently detect. For lower eccentricities (or with future, super-sensitive detectors like the **Einstein Telescope**), the cosmic chaos might reappear, revealing even more secrets about how black holes grow.
+
+For now, though, we’ve got a tantalizing clue: **in the wild, messy universe, some cosmic collisions might just follow the same simple recipe.** And that’s a recipe worth chasing.",C 0.8 ST: 0.8 N:0.6 (too verbose),0.7,0.8,"**Unlocking the Secrets of Black Hole Mergers**
+
+Imagine two massive black holes hurtling towards each other at incredible speeds, their gravitational waves rippling through space and time. This phenomenon, known as a black hole merger, has captivated scientists for decades. Recently, researchers have made a groundbreaking discovery that sheds new light on the formation of these cosmic events.
+
+**A New Era in Astrophysics**
+
+The first detection of gravitational waves in 2015 marked the beginning of a new era in astrophysics. Since then, scientists have confirmed over 50 black hole mergers, each with unique properties. However, many of these events have left researchers with more questions than answers. One of the biggest mysteries is how these black holes form and merge in the first place.
+
+**The Pinhole Regime**
+
+Researchers have proposed a new theory, known as the ""pinhole regime,"" which suggests that the formation of black hole mergers is a stochastic process. This means that the distance required for two black holes to merge with residual eccentricity is typically orders of magnitude smaller than the underlying astrophysical scales during the initial stages. As a result, the eccentricity distribution stemming from black hole mergers retains no memory of their birth environment or the formation process.
+
+**A Universal Eccentricity Distribution**
+
+Using advanced mathematical models, researchers have derived a universal eccentricity distribution that applies to all dynamical evolution channels, from chaotic few-body systems to hierarchical triples. This distribution is characterized by a common form, which is independent of the details of the underlying formation channel.
+
+**Implications for Future Research**
+
+The discovery of a universal eccentricity distribution has significant implications for future research. It suggests that the exact distribution in eccentricity and frequency commonly resolvable by current detectors should follow a unified form regardless of the details of the underlying dynamical formation channel. This means that different astrophysical formation mechanisms are fundamentally indistinguishable in this range via their eccentricity alone.
+
+**The Way Forward**
+
+To overcome this limitation, researchers propose two options. The first is to measure lower eccentricities, which may already be achievable for lower-mass binaries and binaries with significant higher-mode content. The second is to study eccentricity only in correlation with other parameters, such as redshift, spin, and mass. By exploring these correlations, scientists may be able to distinguish between different formation scenarios and gain a deeper understanding of the cosmic events that shape our universe.",C: 0.8 ST: 0.8 N: 0.8 ,0.8,0.7
+Probing Neutron Skins with KDAR Neutrinos: From Coherent to Diffractive Elastic Neutrino--Nucleus Scattering,"We investigate coherent elastic neutrino--nucleus scattering (CEvNS) induced by pion--decay--at--rest (πDAR) and kaon--decay--at--rest (KDAR) neutrinos, with emphasis on the transition from strict coherence to the diffractive regime. Organizing CEvNS observables in terms of the dimensionless variable qR, we show that πDAR measurements remain confined to the near--coherent region for all nuclei, whereas KDAR neutrinos (Eν = 236--MeV) extend the kinematics into qR ≳ 1, where recoil spectra develop genuine shape sensitivity to the nuclear weak form factor. Using representative light, medium--mass, and heavy nuclei (¹²C, ⁴⁰Ca, ⁴⁸Ca, and ²⁰⁸Pb), we examine relevant cross sections and quantify the statistical sensitivity to the neutron skin thickness achievable at a JSNS²--like facility. For a total exposure of 10--ton·year and realistic KDAR fluences, projected 1σ sensitivities reach ΔRₙₚ⁽⁰⁾ = 0.09±0.02--fm for ⁴⁸Ca and ≈ 0.07±0.02--fm for ²⁰⁸Pb as the fluence increases. These sensitivities are competitive with, and complementary to, parity--violating electron--scattering measurements such as CREX and PREX, while relying on an electroweakly clean neutral--current probe with distinct systematic uncertainties. Our results establish KDAR--based CEvNS as a quantitatively robust and complementary avenue for probing neutron skins and nuclear weak densities beyond the coherent limit.",http://creativecommons.org/licenses/by/4.0/,https://arxiv.org/abs/2602.20436,https://arxiv.org/html/2602.20436v1,2026-02-24,"Neutrinos are famous for slipping through matter, but every so often one gives a whole atomic nucleus a tiny “kick” and bounces off without breaking it. This rare event—called coherent elastic neutrino–nucleus scattering—gets a big boost when the neutrino’s “view” is too blurry to pick out individual protons and neutrons, so the nucleus responds as one object. Because protons contribute only weakly, the signal mostly tracks where the neutrons are, making it a clean way to study the neutron “skin,” the thin outer layer where neutrons extend beyond protons.
+
+Most past experiments used low-energy neutrinos from stopped pions, which mainly probe the fully coherent, blurry regime—good for counting events, but not very sensitive to the neutron skin’s shape. This paper argues that higher-energy, single-energy neutrinos from stopped kaons can push measurements into a transition region where the nucleus’s internal structure starts to matter, subtly reshaping the recoil-energy spectrum.
+
+Using two standard models of neutron distributions and detailed recoil-to-momentum mapping, the authors project that a JSNS-like setup with 10 ton·years could measure neutron-skin thickness to about 0.03 femtometers in calcium and 0.02 in lead—competitive with leading electron-scattering results.",C: 0.8 (didn’t explain me what qR is) ST: very concise and clear 0.9 N:0.9,0.9,0.8,"**Neutrinos Reveal the Hidden Layers of Atomic Nuclei**
+
+Imagine peering inside an atom’s core—not with a microscope, but with ghostly particles called neutrinos. These nearly weightless messengers, produced in trillions during nuclear reactions, can pass through matter almost undisturbed. But when they *do* interact, they reveal secrets about the very structure of atomic nuclei—specifically, the mysterious ""neutron skin,"" a thin outer layer of neutrons that extends beyond the protons in heavy atoms.
+
+For decades, scientists have struggled to measure this neutron skin directly. Now, a new method using **coherent elastic neutrino-nucleus scattering (CEvNS)**—where neutrinos bounce off entire nuclei like billiard balls hitting a solid ball—is offering a fresh way to probe it. The key? Using **kaon decay at rest (KDAR)**, a process that produces higher-energy neutrinos than traditional methods, allowing scientists to ""see"" deeper into the nucleus.
+
+### **The Neutron Skin Mystery**
+Atoms are mostly empty space, but their cores—nuclei—are packed with protons and neutrons. In heavy atoms like lead, neutrons often form a slightly thicker outer layer than protons, creating a ""skin."" This skin affects how stars explode and how neutron stars behave, but measuring it precisely has been tricky. Previous experiments, like **PREX-II** (which used electrons), estimated the lead nucleus’ neutron skin to be about **0.28 femtometers** (a trillionth of a millimeter) thick—but with uncertainties that could skew our understanding of nuclear physics.
+
+### **Neutrinos as Nuclear Detectives**
+Most neutrino experiments use low-energy neutrinos from pion decay, which mostly scatter off nuclei in a ""coherent"" way—like a wave hitting a solid wall. But these neutrinos don’t probe the neutron skin well. KDAR, however, produces **higher-energy neutrinos** (around 236 MeV), which can scatter at angles that reveal finer details of the nucleus.
+
+When a KDAR neutrino hits a nucleus, it can knock it into motion, and by studying how much energy the nucleus gains, scientists can infer the distribution of neutrons inside. The trick? The recoil energy depends on the **momentum transfer**—how much ""kick"" the neutrino gives the nucleus. If the neutrino’s energy is just right, it can probe the **diffractive structure** of the nucleus, where the neutron skin’s effects become most visible.
+
+### **Breaking New Ground**
+A recent study shows that KDAR-based CEvNS could **narrow down the neutron skin thickness** to within **0.02–0.03 femtometers** for heavy nuclei like lead, matching or even improving the precision of electron-scattering experiments. This is a huge leap—current uncertainties are about **0.07 fm**, meaning our estimates could be off by nearly 30%.
+
+The method also offers a **cleaner test of the Standard Model**, the theory that governs all known particles and forces. Since neutrinos interact only weakly, they avoid many of the complications that plague electron-based experiments. Plus, detectors designed for dark matter searches (like those using liquid xenon) can already pick up these faint neutrino signals, making KDAR a promising tool for future studies.
+
+### **Why It Matters**
+Understanding neutron skins isn’t just academic. It helps us model **supernova explosions**, the **interiors of neutron stars**, and even the behavior of matter under extreme pressures. With KDAR neutrinos, we might finally crack the code on one of the atom’s most elusive features—one recoil at a time.
+
+So next time you think of neutrinos as mere ""ghost particles,"" remember: they’re also **nuclear archaeologists**, peeling back the layers of matter itself.",C: 0.7 (data may not be precise) ST: 0.7 (too much data mentioned) N:0.6,0.7,0.7,"**Unlocking the Secrets of Neutron Skins with Coherent Elastic Neutrino-Nucleus Scattering**
+
+Imagine being able to peer inside the nucleus of an atom, studying the distribution of neutrons and protons that make up its core. This is exactly what scientists have been trying to do with a phenomenon called coherent elastic neutrino-nucleus scattering (CE ν \nu NS). By harnessing the power of neutrinos, tiny particles that can pass through matter almost undetected, researchers have been able to probe the internal structure of atomic nuclei in a way that was previously impossible.
+
+**What is CE ν \nu NS?**
+
+CE ν \nu NS is a process in which a neutrino interacts with an entire nucleus, rather than just individual protons or neutrons. This interaction is ""coherent"" because the neutrino's weak force affects the entire nucleus simultaneously, rather than just individual particles. The result is a scattering event that can be detected and studied.
+
+**How does CE ν \nu NS work?**
+
+When a neutrino collides with a nucleus, it can cause the nucleus to recoil, or move in the opposite direction. By measuring the energy and direction of this recoil, scientists can infer the properties of the nucleus, including its neutron skin thickness. The neutron skin is the difference between the radius of the nucleus and the radius of the proton cloud that surrounds it.
+
+**What can CE ν \nu NS tell us about neutron skins?**
+
+CE ν \nu NS can provide valuable insights into the properties of neutron skins, which are still not well understood. By studying the scattering events, scientists can determine the neutron skin thickness of various nuclei, which can help us better understand the behavior of neutrons in different environments.
+
+**How does KDAR compare to π \pi DAR?**
+
+KDAR (kaon decay at rest) and π \pi DAR (pion decay at rest) are two different sources of neutrinos that can be used to study CE ν \nu NS. KDAR produces higher-energy neutrinos than π \pi DAR, which allows it to probe the nucleus at larger momentum transfers and access the coherent-to-diffractive transition region. This makes KDAR a more sensitive probe of nuclear structure.
+
+**What are the implications of CE ν \nu NS for nuclear physics?**
+
+CE ν \nu NS has the potential to revolutionize our understanding of nuclear physics. By providing a new way to study the internal structure of atomic nuclei, it can help us better understand the behavior of neutrons and protons in different environments. This, in turn, can have important implications for our understanding of nuclear reactions, nuclear stability, and the properties of neutron stars.
+
+**What are the future prospects for CE ν \nu NS?**
+
+The future of CE ν \nu NS looks bright, with several experiments already underway or planned to study this phenomenon. The JSNS (J-PARC Sterile Neutrino Search at the J-PARC Spallation Neutron Source) experiment, for example, is expected to provide valuable insights into the properties of neutron skins and the behavior of neutrinos in different environments. As the field continues to evolve, we can expect to learn even more about the internal structure of atomic nuclei and the properties of neutrinos.
+",C: 0.6 (usage of extreme words; no mentioning on qR) ST: 0.9 (Good def for CE v\nu NS for understanding) N: 0.8,0.7,0.4
+Coupling–energy driven pumping through quantum dots: the role of coherences,"We study the impact of off–resonant tunneling and coherences on the electron pumping through quantum dots. Thereby, we focus on two electron–pump setups where lowest–order tunneling processes are suppressed and the pump is exclusively driven by modulations of the coupling energy. The first setup is driven by switching on and off the couplings between the quantum dot and the leads, while the second setup employs measurements of the dot occupation. We derive exact solutions for arbitrarily strong tunnel couplings in the absence of Coulomb interaction, identify parameter regimes with optimal pumping currents or optimal energy efficiency, and discuss similarities between both pumping mechanisms.",http://creativecommons.org/licenses/by/4.0/,https://arxiv.org/abs/2602.23099,https://arxiv.org/html/2602.23099v1,2026-02-26,"Future quantum gadgets will be built from parts so tiny that the usual “classical” rules fail. This paper asks a practical question: when a nanoscale device is strongly connected to its surroundings, can that connection itself be used as a power source?
+
+The authors study a simple setup: a quantum dot (an “artificial atom”) between two electron reservoirs with a voltage difference. The dot’s energy level is kept too high for ordinary, resonant electrons to pass through, so transport can only happen through rarer, off-resonant processes that depend on the dot–reservoir coupling.
+
+They propose two pumping methods that push electrons *against* the voltage by repeatedly destroying quantum “togetherness” (coherence) between the dot and the reservoirs—an action that can inject energy. In scheme 1, the coupling to the left and right reservoirs is switched on and off in alternating steps. In scheme 2, the couplings stay on, but repeated measurements (or a weak continuous detector like a single-electron transistor) erase coherence, similar to the anti-Zeno effect.
+
+Using an exact calculation technique that handles strong coupling and memory effects, they find that structured reservoirs and non-Markovian “echoes” can boost current and even raise efficiency beyond the slow-switching limit.",C: 0.8 ST: 0.5 (too many professional words without explanation and I cannot understand) N: 0.7,0.6,0.8,"**Harnessing Quantum Tricks: How Tiny Devices Can Pump Electrons Against the Current**
+
+Imagine a tiny ""quantum elevator"" that can move electrons *up* an energy hill—against the natural flow of electricity. Scientists have just cracked how this works at the nanoscale, using quantum weirdness to defy conventional physics.
+
+At the heart of the trick is a **quantum dot**—a speck of semiconductor so small that electrons behave like quantum particles, not just classical charges. Normally, electrons would flow from a higher-energy ""bath"" (like a battery) to a lower-energy one, following the voltage gradient. But these researchers found a way to *reverse* that flow by exploiting **quantum coherence**—the spooky ""connectedness"" between particles that Einstein called ""action at a distance.""
+
+### **Two Ways to Trick the Current**
+The team tested two methods to coax electrons uphill:
+
+1. **The ""Switching Pump""**
+   - They toggled the quantum dot’s connection to each bath like a light switch—first to Bath 1, then to Bath 2.
+   - When the dot was ""decoupled"" from one bath, quantum coherence between the dot and the other bath *collapsed*, releasing energy that could push electrons into Bath 2 against the voltage.
+   - **Bonus:** By tuning the timing, they boosted efficiency beyond the usual limits, thanks to quantum ""non-Markovian"" effects (where past interactions linger and affect the future).
+
+2. **The ""Quantum Peek"" Pump**
+   - Instead of switching connections, they used a **measurement device** (like a single-electron transistor) to *observe* the quantum dot’s state.
+   - Each ""peek"" destroyed coherence, resetting the system and injecting energy—similar to the **anti-Zeno effect**, where frequent measurements can *stabilize* a quantum state (or, in this case, *drive* it).
+   - Even weak, continuous measurements worked, proving that quantum noise can be harnessed, not just a nuisance.
+
+### **Why It Matters**
+These pumps could revolutionize **quantum thermodynamics**—the study of energy flow at the smallest scales. They show that:
+- **Decoherence (the ""enemy"" of quantum computing) can be a friend**—if you know how to use it.
+- **Non-Markovian effects** (where quantum systems ""remember"" their past) can improve efficiency.
+- **Measurement itself can do work**, opening doors for quantum sensors and energy-harvesting devices.
+
+Think of it like a quantum version of a **ratchet mechanism**—a one-way valve that lets electrons climb uphill by exploiting quantum fluctuations. The next step? Building real-world nanodevices that run on this principle, turning quantum weirdness into usable power.
+
+**The bottom line:** Sometimes, the most counterintuitive quantum behaviors are the key to the future.","C: 0.9 (absence of experiment setting, but the methods are explained clearly) ST: 0.9 (easy-understanding!) N:0.8 (a bit verbose)",0.8,0.7,"**Harnessing Quantum Coherence for Efficient Electron Transport**
+
+Imagine a tiny device that can pump electrons against an applied voltage, using the principles of quantum mechanics to achieve high efficiency. This is the concept behind two novel electron pumps, which rely on the manipulation of quantum coherence to drive off-resonant tunneling events.
+
+**The Challenge of Quantum Coherence**
+
+In the quantum world, coherence refers to the ability of particles to exist in multiple states simultaneously. This property is essential for many quantum technologies, but it also poses a challenge for devices that rely on electron transport. When electrons tunnel through a quantum dot (a tiny island of electrons), their coherence can lead to unwanted effects, such as energy loss and reduced efficiency.
+
+**Pumping Scheme 1: Coupling and Decoupling**
+
+The first electron pump uses a coupling and decoupling procedure to manipulate the quantum coherence of the electrons. By periodically switching on and off the coupling between the quantum dot and the baths, the pump creates a series of off-resonant tunneling events that drive electrons against the applied voltage. The efficiency of this pump is influenced by the structure of the baths, with highly structured baths leading to increased efficiency.
+
+**Pumping Scheme 2: Measurement-Induced Pumping**
+
+The second electron pump relies on measurement-induced pumping, where the quantum coherence of the electrons is manipulated by periodically repeating projective measurements of the quantum dot occupation. This scheme bears similarities to the anti-Zeno effect, where repeated measurements can actually increase the rate of certain processes. By carefully choosing the measurement interval, it is possible to generate a current against the applied voltage.
+
+**Non-Markovian Effects and Efficiency**
+
+Both pumping schemes exhibit non-Markovian effects, which arise from the time-dependent nature of the quantum coherence. These effects lead to oscillations in the electron occupation and coherence, and can be used to further increase the efficiency of the pumps. In the slow-pumping regime, the efficiency of the first pump is limited to 50%, but finite cycle durations can lead to higher efficiency values.
+
+**Comparison of the Two Pumping Schemes**
+
+Despite their differences, both pumping schemes rely on analogous decoherence operations and the manipulation of the coupling energy. The currents generated by both schemes show similar behavior, with oscillations in the current flow corresponding to electrons oscillating between the baths and the quantum dot. The second pump, however, always has a coupling between both baths and the quantum dot, leading to negative currents for long durations.
+
+**Conclusion**
+
+The two novel electron pumps presented here demonstrate the potential of quantum coherence to drive efficient electron transport against an applied voltage. By manipulating the quantum coherence of the electrons, these pumps can achieve high efficiency and generate currents against the applied voltage. The non-Markovian effects observed in both schemes highlight the importance of considering the time-dependent nature of quantum coherence in the design of quantum devices.",C: 0.8 ST: 0.8 (still many jargons) N:0.7 unrelated bg info is too much,0.7,0.7
+Robust Distributed Nonconvex Optimization Enabling Communication Acceleration and Privacy Protection,"This paper addresses a distributed nonconvex optimization problem over multi-agent networks, where each agent exchanges its local information solely with its neighbors. Given that most existing distributed nonconvex optimization algorithms are susceptible to information leakage during inter agent communications, we propose a Robust Proximal Primal dual algorithm, referred to as RPP, to enhance the security of information transmission. In contrast to many existing approaches that directly transmit local variables throughout the network, we introduce carefully designed random noises to obfuscate sensitive local information. This not only preserves privacy but also demonstrates the noise robustness of our proposed algorithm. We establish a sublinear rate at which RPP converges to a stationary solution. Moreover, by incorporating Chebyshev acceleration, an accelerated variant of RPP is developed and achieves the optimal communication complexity bound for the algorithms that allow for exchanging local deci sions at each iteration. The superior convergence performance of RPP is validated through a few numerical experiments, which also indicate that, within an appropriate range, the introduced perturbations do not impede the convergence speed of RPP.",http://creativecommons.org/licenses/by/4.0/,https://arxiv.org/abs/2602.22670,https://arxiv.org/html/2602.22670,2026-02-26,"Modern systems—from power grids to wireless networks—often need many computers to jointly find the “best” settings. The catch: the math is usually *nonconvex*, meaning the landscape is full of hills and valleys, so finding a good solution is tricky. It gets even harder when computers can only talk to nearby neighbors on a sparse network, and when sharing raw values (like local model updates) could leak private information.
+
+This paper proposes a new distributed method called **RPP** (Robust Proximal Primal-dual). Each device repeatedly improves its own guess using a carefully stabilized update rule, while also coordinating with neighbors so everyone gradually agrees. To speed up slow networks, the authors allow **multiple communication exchanges per iteration** and add a **momentum-like boost** to the coordination step.
+
+For privacy, RPP uses an **encryption-by-noise** idea: devices send messages mixed with well-designed random perturbations that hide their true local variables. Unlike many earlier privacy tricks that slow learning or only reach “almost-correct” answers, RPP keeps a proven convergence speed. An accelerated version, **RPP-CA**, uses **Chebyshev acceleration** to cut communication and matches state-of-the-art efficiency. Experiments on distributed nonconvex logistic classification show faster progress and strong robustness even with privacy noise.",C: 0.9 ST: 0.6 (so many jargons without explanation) N: 0.8 (precise words),0.7,0.8,"**The Smart Way to Solve Big Problems Without Breaking the Rules**
+
+Imagine a group of scientists working together to solve a complex puzzle—like optimizing energy grids or training AI models—but they can’t share their private clues directly. They need a way to collaborate *without* exposing sensitive data. That’s the challenge researchers tackled with a new algorithm called **RPP (Robust Proximal Primal-Dual)**.
+
+### **The Problem: Nonconvex Puzzles & Privacy**
+Many real-world problems—like managing power grids or optimizing wireless networks—are *nonconvex*, meaning they have tricky, uneven landscapes with no simple shortcuts. Worse, if devices share raw data, they risk leaking secrets. Existing solutions either ignore privacy or slow down too much.
+
+### **The Solution: A Privacy-Proof Team Player**
+RPP does two things at once:
+1. **Faster, Smarter Collaboration** – It uses a clever math trick called *Chebyshev acceleration* to speed up how devices share and update information, reducing wasted communication rounds.
+2. **Data Shielding** – Instead of sending raw numbers, each device adds controlled ""noise"" (like a digital camouflage) to its updates, ensuring no one can reverse-engineer private data.
+
+### **Why It Matters**
+- **Faster than the rest**: RPP and its accelerated version (RPP-CA) outperform older methods, reaching solutions in fewer steps.
+- **Privacy first**: Unlike competitors that trade speed for security, RPP keeps data safe *without* sacrificing efficiency.
+- **Works in real networks**: Tested on simulated power grids and AI training, RPP held its own—even when devices sent slightly noisy updates.
+
+### **The Future**
+This isn’t just theory. RPP could power smarter cities, more secure AI training, and even better climate models—all while keeping sensitive data locked away. The best part? It’s already faster than the current gold standard.
+
+**Bottom line**: When solving big problems, you don’t have to choose between speed and security. RPP does both.",C: 0.8 (covers methods & effects) ST: 1 N: 0.8 (only a bit long),0.9,0.7,"**Distributed Nonconvex Optimization: A Robust and Private Solution**
+
+Imagine a world where thousands of computers work together to solve a complex problem, but each computer only shares a limited amount of information with its neighbors. This is the world of distributed optimization, where computers collaborate to find the best solution to a problem, while protecting their private data.
+
+In this article, we'll explore a new algorithm that tackles this challenge. Our algorithm, called RPP (Robust Proximal Primal-Dual), is designed to solve nonconvex optimization problems in a distributed setting, while ensuring the privacy of each computer's data.
+
+**The Problem**
+
+Nonconvex optimization problems are common in many fields, such as machine learning, signal processing, and control systems. These problems involve finding the best solution to a complex function, but the function is not convex, meaning it can have multiple local optima.
+
+In a distributed setting, each computer has a local copy of the function and needs to collaborate with its neighbors to find the global optimum. However, each computer only shares a limited amount of information with its neighbors, making it challenging to find the global optimum.
+
+**The Solution**
+
+Our algorithm, RPP, is designed to solve this problem. RPP uses a proximal primal-dual framework, which is a type of optimization algorithm that combines the strengths of both primal and dual methods.
+
+The key innovation in RPP is the use of an encryption strategy that incorporates additional perturbations to safeguard local information. This ensures that each computer's data remains private, while still allowing the algorithm to converge to the global optimum.
+
+**The Algorithm**
+
+RPP consists of three main components:
+
+1. **Primal Update**: Each computer updates its local estimate of the global optimum using a proximal term.
+2. **Dual Ascent**: Each computer updates its dual variable using a dual ascent step.
+3. **Dual Acceleration**: Each computer updates its dual variable using a momentum-like step to boost convergence.
+
+**Theoretical Guarantees**
+
+We prove that RPP converges to the global optimum at a sublinear rate, even in the presence of perturbations. We also show that the encryption strategy does not obstruct the convergence of the algorithm.
+
+**Numerical Experiments**
+
+We evaluate the performance of RPP on a distributed binary classification problem with nonconvex regularizers. Our results show that RPP converges faster than several state-of-the-art algorithms, including L-ADMM, SUDA, Prox-GPDA, xFILTER, ADAPD-OG, and ADAPD-OG-MC.
+
+**Conclusion**
+
+RPP is a robust and private algorithm for distributed nonconvex optimization. Our algorithm ensures the privacy of each computer's data while still converging to the global optimum at a sublinear rate. We believe that RPP has the potential to revolutionize the field of distributed optimization and make it more secure and efficient.
+
+**Future Work**
+
+We plan to extend RPP to more complex scenarios, such as distributed optimization with multiple objectives and constraints. We also plan to investigate the use of RPP in real-world applications, such as distributed machine learning and control systems.",C: 0.8 ST:0.7 N:0.7,0.6,0.5
+"Topological entropy, mean dimension, and weakly equivalent flows","In this paper, we mainly revisit a nice theory for topological entropy of weakly equivalent flows, which was originally investigated by Ohno in 1980. We will develop a new approach, being more straightforward and elementary than the measure-theoretic one provided by Ohno, to the theory for weak equivalence of flows, and as a novelty, we study both topological entropy and mean dimension with a highly unified process in relation to such objects.
+In particular, for weakly equivalent flows without fixed points we recover Ohno's theorem for topological entropy relation with a substantially different method, and moreover, carry out an analogue within the framework of mean dimension; while for weakly equivalent flows with fixed points, our technique refines the procedure suggested in Ohno's construction, and strengthens Ohno's example with a view towards topological complexity of dynamical systems.
+Essentially, our method is topological. For this purpose, we first introduce a modification to the definition of topological entropy, by relating a spanning set inside the state space to a finite set outside, which comes to be a tiny but key difference, via a map, and further, show that it leads eventually to the same value as the topological entropy. Although to an intermediate extent, the modified quantity generally does not coincide with the one appearing in the classical definition, it has some basic combinatorial feature, which not only applies flexibly to topological entropy, but also adapts directly to the mean dimension context. Using this alternative, we are allowed to re-establish and enrich Ohno's theory.",http://creativecommons.org/licenses/by/4.0/,https://arxiv.org/abs/2602.22643,https://arxiv.org/html/2602.22643,2026-02-26,"Imagine watching two “movies” of motion on a space: points drift along paths over time. Mathematicians call this a **flow**. Two flows are **weakly equivalent** if a homeomorphism matches each path (orbit) in one movie to a path in the other, keeping the forward direction—yet it may let the clocks run at different speeds.
+
+This paper revisits a classic question: does such orbit-matching preserve how “complicated” the motion is? Earlier work (Ohno) used probability-style tools. Here, the authors give **purely topological** proofs instead.
+
+First, for flows **without fixed points** (no point stays forever still), they build a continuous “time-change” function that tells how much one clock must be sped up or slowed down along each orbit. From its minimum and maximum speeds, they prove both **topological entropy** (a chaos meter) and **mean dimension** (a complexity measure that can distinguish different kinds of “infinite complexity”) scale only by a constant factor between weakly equivalent flows.
+
+A key technical contribution is a modified, more flexible definition of entropy using **finite partitions**, making estimates easier.
+
+Finally, with **fixed points**, all bets are off: they construct weakly equivalent flows where one has **zero entropy** while the other has **infinite mean dimension**, showing orbit-matching can hide enormous complexity differences.",C: 0.8 ST: 0.8 (use comparison to explain the key idea of weakly equivalent flow) N:0.8,0.8,0.8,"**Unlocking the Secrets of Chaotic Systems: How Two Flows Can Be Different Yet Alike**
+
+Imagine two rivers flowing side by side—one calm and predictable, the other turbulent and chaotic. Surprisingly, they might be *weakly equivalent*, meaning their paths can be matched up in a way that preserves their overall structure, even if one seems far more complex than the other. This is the fascinating world of **dynamical systems**, where mathematicians study how tiny changes can lead to wildly different behaviors.
+
+In a groundbreaking study, researchers revisited a decades-old question: *Can two weakly equivalent flows have drastically different levels of complexity?* The answer is **yes**—and it’s not just about chaos. Two flows can be structurally similar but differ in ways that traditional measures like *topological entropy* (a way to quantify chaos) can’t fully capture.
+
+### **The Hidden Dimension: Mean Dimension**
+Topological entropy is like a ruler for chaos—it tells us how much ""stretching and folding"" happens in a system. But it’s not the only way to measure complexity. Enter **mean dimension**, a more refined tool that looks at how much ""space"" a system occupies over time. Think of it as measuring the *fractal dimension* of a system’s behavior.
+
+In the 1980s, mathematician **Ohno** showed that for flows without fixed points (points that never move), topological entropy is preserved under weak equivalence. But what if the flows *do* have fixed points? Ohno’s work suggested that even then, entropy could behave strangely—but the full picture was still unclear.
+
+### **A New Approach: Rewriting the Rules**
+The researchers took a fresh look at how we define topological entropy. Instead of relying on traditional methods, they introduced a **modified approach** that treats the system’s behavior like a ""partitioned map""—breaking it into smaller, manageable pieces. This allowed them to:
+1. **Unify discrete and continuous time systems** (like counting steps in a sequence vs. smooth motion).
+2. **Prove that mean dimension behaves predictably** under weak equivalence—even when entropy doesn’t.
+3. **Construct a counterexample** where two weakly equivalent flows have *infinite mean dimension* (extremely complex) and *zero topological entropy* (almost perfectly predictable).
+
+### **The Twist: A Flow That’s Both Simple and Complex**
+Here’s the mind-bending part: The researchers built two flows where one is **topologically simple** (entropy = 0) but **infinitely complex in dimension** (mean dimension = ∞). How? By carefully designing a **suspension flow**—a system where motion is ""lifted"" over a base space with a carefully chosen roof function.
+
+- **Flow 1 (Simple Entropy, Infinite Dimension):** The roof function is designed so that while the system looks predictable (no chaos), its dimensional growth is unbounded.
+- **Flow 2 (Complex Entropy, Zero Dimension):** A modified version where the roof function introduces controlled chaos, but the system’s dimension remains low.
+
+### **Why Does This Matter?**
+This work shows that **weak equivalence doesn’t always preserve complexity in the way we thought**. While topological entropy might stay the same, mean dimension can reveal hidden layers of structure. It’s like two paintings being structurally similar but one being a masterpiece of detail while the other is a simple sketch.
+
+### **The Big Picture**
+This research bridges gaps between **chaos theory** and **dimensional analysis**, offering new tools to study how systems evolve. It also hints at deeper questions: *Are there other hidden invariants* that could further refine our understanding of dynamical equivalence? The answer might lie in exploring even more subtle properties of these flows—like how their **fractal dimensions** or **Lyapunov exponents** behave under weak equivalence.
+
+So next time you see two rivers flowing side by side, remember: they might be more alike than they seem—but one could still be hiding a universe of complexity beneath the surface. 🌊✨",C: 0.8 ST: 0.8 N:0.7,0.7,0.5,"**The Mystery of Time: Unraveling the Secrets of Topological Entropy**
+
+Imagine a world where time is not a fixed, linear concept, but rather a flexible and dynamic entity that can be manipulated and distorted. This is the realm of topological entropy, a mathematical concept that seeks to understand the complexity and intricacy of time-dependent systems.
+
+In this article, we will delve into the fascinating world of topological entropy, exploring its definition, properties, and applications. We will also examine the relationship between topological entropy and mean dimension, a concept that measures the complexity of a system in terms of its ability to distinguish between different points.
+
+**The Definition of Topological Entropy**
+
+Topological entropy is a measure of the complexity of a dynamical system, defined as the rate at which the system's behavior becomes increasingly complex and unpredictable over time. It is a fundamental concept in the study of chaos theory and has far-reaching implications in fields such as physics, mathematics, and engineering.
+
+The definition of topological entropy is based on the idea of a partition of the system's state space into smaller regions, called ""boxes."" The topological entropy is then defined as the rate at which the number of boxes required to cover the state space increases as the system evolves over time.
+
+**The Relationship between Topological Entropy and Mean Dimension**
+
+Mean dimension is a concept that measures the complexity of a system in terms of its ability to distinguish between different points. It is defined as the minimum number of dimensions required to represent the system's behavior.
+
+The relationship between topological entropy and mean dimension is a fundamental one, with topological entropy providing a measure of the system's complexity in terms of its ability to distinguish between different points. In other words, topological entropy measures the rate at which the system's behavior becomes increasingly complex and unpredictable over time, while mean dimension measures the minimum number of dimensions required to represent the system's behavior.
+
+**The Construction of a Pair of Weakly Equivalent Flows**
+
+In this article, we will construct a pair of weakly equivalent flows, one of which has infinite mean dimension and the other has zero topological entropy. This construction is based on the idea of suspending a subshift over a base space, and is a fundamental example in the study of topological entropy and mean dimension.
+
+The construction involves two steps: first, we define a subshift over a base space, and then we suspend this subshift to create a flow. The resulting flow has infinite mean dimension, while the original subshift has zero topological entropy.
+
+**The Properties of the Pair of Weakly Equivalent Flows**
+
+The pair of weakly equivalent flows constructed in this article has several interesting properties. First, the flow with infinite mean dimension has zero topological entropy, while the flow with zero topological entropy has infinite mean dimension. This is a fundamental example of the relationship between topological entropy and mean dimension.
+
+Second, the pair of weakly equivalent flows is constructed using a suspension, which is a fundamental technique in the study of topological entropy and mean dimension. The suspension is used to create a flow from a subshift, and is a key tool in the study of the relationship between topological entropy and mean dimension.
+
+**Conclusion**
+
+In conclusion, the study of topological entropy and mean dimension is a rich and fascinating field that has far-reaching implications in fields such as physics, mathematics, and engineering. The construction of a pair of weakly equivalent flows, one of which has infinite mean dimension and the other has zero topological entropy, is a fundamental example in the study of this field.
+
+The relationship between topological entropy and mean dimension is a fundamental one, with topological entropy providing a measure of the system's complexity in terms of its ability to distinguish between different points, while mean dimension measures the minimum number of dimensions required to represent the system's behavior.
+
+The study of topological entropy and mean dimension has many applications in fields such as physics, mathematics, and engineering, and is a fundamental area of research in the study of complex systems.
+",C: 0.7 ST: 0.5 N: 0.7,0.5,0.2
+Just-infinite Jordan Banach algebras,"By analogy with the well-established notions of just-infinite groups and just-infinite algebras, in particular $C^*$-algebras, we initiate a study of just-infinite $JB$-algebras, i.e. infinite dimensional $JB$-algebras for which all proper quotients are finite dimensional. We investigate the connections between a just-infinite $C^*$-algebra $A$ and its Jordan algebra $H(A,*)$ of self-adjoint elements. We also show that any just-infinite $JB$-algebra $J$ either is a infinite-dimensional spin factor or there exists a $C^*$-algebra $A$ and just-infinite norm-closed real $*$-subalgebras $A_1$ and $A_2$ of $A$ such that $H(A_1,*)\unlhd J \subseteq H(A_2,*).$",http://creativecommons.org/licenses/by/4.0/,https://arxiv.org/abs/2602.22616,https://arxiv.org/html/2602.22616,2026-02-26,"Mathematicians often understand complicated algebraic “number systems” by looking at their *ideals*—special subsets that behave well under multiplication. This paper focuses on a striking extreme case called **just-infinite**: an algebra is infinite in size, but the moment you “collapse” it by any nonzero ideal, what remains becomes finite. (A familiar example is the polynomial ring in one variable.)
+
+The authors study this idea in the world of **Jordan–Banach (JB) algebras**, which you can think of as algebras of “observable-like” self-adjoint operators equipped with a notion of distance (a norm). Their key method is to compare a JB algebra with the larger **C\*-algebra** it comes from, using the self-adjoint part and tracking how ideals correspond between the two.
+
+Main results:  
+1) The self-adjoint Jordan algebra inside a C\*-algebra is just-infinite **exactly when** the whole C\*-algebra is just-infinite.  
+2) Every just-infinite JB algebra is actually a **JC algebra** (it can be realized concretely as norm-closed self-adjoint operators).  
+3) Structurally, such JB algebras are either **infinite-dimensional spin factors** or sit inside the self-adjoint part of a **real associative just-infinite algebra**, with a just-infinite ideal embedded inside.","C: 0.8 ST: 0.3 (only formulas, no explanation) N: 0.7",0.4,0.8,"**The Hidden Structure of ""Just-Infinite"" Algebras: How Infinite Systems Stay Finite in Quotients**
+
+Imagine you’re building a tower of blocks—each layer is infinite, but if you knock off just one block, the remaining structure collapses into a tiny, finite version. That’s the essence of a **""just-infinite"" algebra**, a mathematical object that’s infinite but behaves like a finite system when you remove any ""essential"" part of it.
+
+### **What Makes an Algebra ""Just-Infinite""?**
+Most infinite algebras (like the ring of all polynomials) are so vast that removing any ideal (a subset closed under multiplication) leaves another infinite structure. But a **just-infinite algebra** is special: every non-zero ideal, when removed, leaves a *finite* quotient. Think of it like a never-ending staircase where every step you skip lands you on a finite platform.
+
+### **The Key Insight: Self-Adjoint Operators and C*-Algebras**
+These algebras often appear in **C*-algebras**—the mathematical framework behind quantum mechanics and operator theory. A C*-algebra is a space of operators on a Hilbert space (like quantum states) with a special property: the norm of an operator’s square equals the square of its norm.
+
+Now, consider the **self-adjoint operators** in a C*-algebra—operators equal to their own mirror image (like reflection matrices). These form a **Jordan algebra**, a structure where multiplication is symmetric (like a commutative ring). The big discovery? A C*-algebra is just-infinite *if and only if* its self-adjoint part is just-infinite.
+
+### **Why Does This Matter?**
+This connection reveals deep structural truths:
+1. **Prime and Non-Degenerate**: Just-infinite Jordan algebras are ""prime"" (no non-trivial ideals can annihilate each other) and ""non-degenerate"" (no zero-divisors).
+2. **Two Possible Forms**:
+   - **Spin Factors**: Infinite-dimensional generalizations of quaternions, appearing in quantum physics.
+   - **Embedded in C*-Algebras**: Some just-infinite algebras live inside larger C*-algebras, where they behave like ""shadows"" of self-adjoint subalgebras.
+
+### **The Big Picture**
+Just-infinite algebras bridge abstract algebra and functional analysis, showing how infinite systems can retain finite-like properties. They’re not just theoretical curiosities—they appear in **quantum field theory**, **operator algebras**, and even in the study of **group representations**. By understanding them, mathematicians unlock new ways to classify and analyze complex structures in math and physics.
+
+In short: these algebras prove that infinity can sometimes *feel* finite—if you know where to look.",C: 0.7 ST: 0.9 N 0.9,0.9,0.6,"**The Mysterious World of Just-Infinite Algebras**
+
+Imagine a world where numbers and operations are not just simple arithmetic, but a complex web of rules and relationships. This is the world of algebras, where mathematicians study the properties and behaviors of these abstract structures. In this article, we'll delve into the fascinating realm of just-infinite algebras, a type of algebra that has been studied extensively in recent years.
+
+**What are Just-Infinite Algebras?**
+
+Just-infinite algebras are a type of algebra that is both infinite-dimensional and has a special property: every non-zero ideal in the algebra is of finite codimension. In other words, if you take a non-zero ideal in the algebra and remove it from the entire algebra, the resulting quotient algebra is always finite-dimensional.
+
+**The Connection to Jordan Algebras**
+
+Just-infinite algebras are closely related to Jordan algebras, a type of algebra that is defined by a specific set of rules and operations. Jordan algebras are important in mathematics and physics, particularly in the study of quantum mechanics and algebraic geometry.
+
+**The Structure of Just-Infinite Algebras**
+
+Researchers have made significant progress in understanding the structure of just-infinite algebras. They have shown that these algebras are either simple, meaning they have no non-trivial ideals, or they are the direct sum of simple algebras.
+
+**The Role of the Tetrad**
+
+The tetrad is a fundamental concept in the study of just-infinite algebras. It is a specific type of element in the algebra that plays a crucial role in the structure and behavior of the algebra.
+
+**The Connection to C*-Algebras**
+
+Just-infinite algebras are also connected to C*-algebras, a type of algebra that is used extensively in functional analysis and operator theory. Researchers have shown that just-infinite algebras can be embedded in C*-algebras, and that the properties of the just-infinite algebra are reflected in the properties of the C*-algebra.
+
+**The Implications for Physics and Mathematics**
+
+The study of just-infinite algebras has significant implications for physics and mathematics. For example, researchers have used just-infinite algebras to study the behavior of quantum systems and to develop new mathematical tools for understanding complex systems.
+
+**Conclusion**
+
+Just-infinite algebras are a fascinating and complex area of study that has far-reaching implications for physics and mathematics. Researchers continue to make progress in understanding the structure and behavior of these algebras, and the connections they have to other areas of mathematics and physics. As our understanding of just-infinite algebras grows, we may uncover new insights and applications that will shape the future of mathematics and physics.
+",C:0.6 ST:0.5 N:0.6,0.5,0.2
+Impacts of Aggregation on Model Diversity and Consumer Utility,"Consider a marketplace of AI tools, each with slightly different strengths and weaknesses. By selecting the right model for the task at hand, a user can do better than simply committing to a single model for everything. Routers operate under a similar principle, where sophisticated model selection can increase overall performance. However, aggregation is often noisy, reflecting in imperfect user choices or routing decisions. This leads to two main questions: first, what does a ""healthy marketplace"" of models look like for maximizing consumer utility? Secondly, how can we incentivize producers to create such models? Here, we study two types of model changes: market entry (where an entirely new model is created and added to the set of available models), and model replacement (where an existing model has its strengths and weaknesses changed). We show that winrate, a standard benchmark in LLM evaluation, can incentivize model creators to homogenize for both types of model changes, reducing consumer welfare. We propose a new mechanism, weighted winrate, which rewards models for answers that are higher quality, and show that it provably improves incentives for producers to specialize and increases consumer welfare. We conclude by demonstrating that our theoretical results generalize to empirical benchmark datasets and discussing implications for evaluation design.",http://creativecommons.org/licenses/by-nc-sa/4.0/,https://arxiv.org/abs/2602.23293,https://arxiv.org/html/2602.23293,2026-02-26,"Today’s AI chatbots are like a toolbox: one model might be great at coding, another at legal reasoning. So people (or “routers” like the one used in LMArena) often pick among models to get the best answer. This paper asks a tricky question: if users don’t always pick perfectly, what kinds of AI “ecosystems” will we end up with—and will they actually help users?
+
+The authors build a simple multi-task world where each model has different strengths, and users choose a model with some randomness (meant to mimic human mistakes, especially when options are close). With this setup, they find a surprising result: adding a new model—or even improving an existing one—can sometimes make users worse off, because the weaker option can “distract” the chooser.
+
+Then they study incentives. If companies are rewarded mainly for being chosen (win rate), competition pushes models to become similar, even though users would benefit more from specialization (different models focusing on different tasks). To fix this, they propose “weighted win rate,” which rewards being chosen *and* being high-quality. Experiments on MT-Bench-101 support these predictions.",C: 0.8 ST: 0.8 N:0.8 Overall it is not interesting; it is just a piece of summary,0.7,0.8,"**The Hidden Cost of AI Overcrowding: Why Too Many Models Can Backfire**
+
+Imagine you’re choosing a restaurant for dinner. You could pick one with the highest-rated chef, or you could try a few different places—maybe one excels at pasta, another at seafood, and a third at desserts. Mixing and matching could give you the best meal overall. But what if *every* restaurant on the menu served the same mediocre pasta? You’d be worse off than if you’d just picked the best chef in the first place.
+
+This is the paradox of AI model aggregation—where more isn’t always better. A new study reveals that when users switch between AI models for different tasks (like coding, math, or creative writing), the system can become *less* effective if the models are too similar. The problem? AI developers are incentivized to compete for attention in the same areas, creating a ""monoculture"" that harms users.
+
+### **The Problem: AI Models Are Too Alike**
+Most AI models today are trained on similar data and optimized for broad tasks. When users pick between them, they often end up with a ""blended"" but not necessarily better result. Worse, if a new model enters the market that’s *slightly* worse than the existing ones, it can actually *distract* users from the best option—lowering overall performance.
+
+This isn’t just theory. Real-world experiments show that in some cases, a team of weaker models can outperform a single top-tier model because their combined strengths fill gaps. But if models are too similar, adding more just clutters the choice, making the system less reliable.
+
+### **The Fix: Incentivize Specialization**
+The researchers propose a solution: **weighted winrate**. Instead of just rewarding models for being picked (which encourages competition in the same areas), developers should be rewarded for *high-quality* outputs *and* for being chosen. This would push AI companies to create models that specialize in unique strengths—like one for coding, another for creative writing, and a third for math—rather than all vying for the same tasks.
+
+### **Why It Matters**
+Right now, AI ecosystems are like a crowded restaurant where every chef serves the same dish. Users end up with a diluted experience. By tweaking how models are rewarded, we could make AI systems smarter, more efficient, and better at solving real-world problems.
+
+The takeaway? **More AI models don’t always mean better AI.** The key is making sure they’re *different*—and that’s a challenge for developers to solve.",C: 0.8 (should mention more on methodology) ST: 0.9 (I love the analogy) N:0.8,0.8,0.7,"**The Hidden Dangers of AI Model Aggregation**
+
+Imagine a world where AI models can perform a wide range of tasks, from coding to translation to writing. In some cases, these models excel at specific tasks, while others struggle. To get the best results, we might want to combine the strengths of multiple models. But what happens when we do this? Can we really expect to get better outcomes by aggregating multiple models?
+
+In a recent study, researchers explored the incentives created by the aggregation process itself. They found that when model producers are rewarded based on how often their models are selected for use, the resulting ecosystem can be surprisingly homogeneous. This means that models that are similar in quality tend to dominate, while those that are weaker are left behind.
+
+The researchers proposed a new mechanism, called weighted winrate, to better align the objectives of producers with the utility of users. This mechanism rewards producers not just for an output that is better than other outputs, but also for a higher value itself. The results showed that weighted winrate leads to improved consumer welfare, as producers are incentivized to specialize and create models that are better suited to specific tasks.
+
+But what about the potential drawbacks of aggregation? The researchers also found that increasing the value of a model can sometimes decrease consumer welfare. This is because a mediocre answer can be more distracting than a clearly terrible answer, and model improvement can sometimes be harmful.
+
+The study's findings have important implications for the development of AI models and the design of aggregation mechanisms. By understanding the incentives created by the aggregation process, we can create systems that are more beneficial to users and more effective in achieving their goals.
+
+**The Science Behind Aggregation**
+
+Aggregation is a process where multiple models are combined to produce a single output. This can be done through various mechanisms, such as weighted averaging or voting. The goal of aggregation is to produce a more accurate or informative output than any individual model.
+
+However, the process of aggregation can also create new challenges. For example, when multiple models are combined, their strengths and weaknesses can interact in complex ways. This can lead to unexpected outcomes, such as decreased accuracy or increased bias.
+
+The researchers in this study used a mathematical framework to model the aggregation process. They assumed that each model has a value, which represents its quality or accuracy. They also assumed that the aggregation mechanism is based on a choice function, which determines the probability of each model being selected.
+
+The choice function used in this study is called the Bradley-Terry-Luce (BTL) function. This function is widely used in economics and psychology to model human decision-making. It assumes that the probability of selecting a model is proportional to its value, but also takes into account the values of other models.
+
+The researchers found that the BTL function can lead to non-monotonicity, which means that increasing the value of a model can sometimes decrease consumer welfare. This is because the BTL function can create a situation where a mediocre answer is more distracting than a clearly terrible answer.
+
+**The Implications of Aggregation**
+
+The study's findings have important implications for the development of AI models and the design of aggregation mechanisms. By understanding the incentives created by the aggregation process, we can create systems that are more beneficial to users and more effective in achieving their goals.
+
+For example, the weighted winrate mechanism proposed in this study can be used to incentivize producers to create models that are better suited to specific tasks. This can lead to improved consumer welfare, as users are more likely to get accurate and informative outputs.
+
+However, the study also highlights the potential drawbacks of aggregation. For example, the BTL function can create a situation where a mediocre answer is more distracting than a clearly terrible answer. This can lead to decreased accuracy or increased bias in the aggregated output.
+
+To mitigate these risks, the researchers propose a new mechanism, called abstention, which allows producers to abstain from providing an output if it is not accurate or informative. This can help to prevent the aggregation of mediocre answers and improve the overall quality of the output.
+
+**Conclusion**
+
+The study's findings highlight the importance of understanding the incentives created by the aggregation process. By designing aggregation mechanisms that take into account the strengths and weaknesses of individual models, we can create systems that are more beneficial to users and more effective in achieving their goals.
+
+The weighted winrate mechanism proposed in this study is a promising approach to incentivizing producers to create models that are better suited to specific tasks. However, the study also highlights the potential drawbacks of aggregation, such as non-monotonicity and decreased accuracy.
+
+To mitigate these risks, researchers and developers should consider using abstention mechanisms, which allow producers to abstain from providing an output if it is not accurate or informative. By taking a more nuanced approach to aggregation, we can create systems that are more beneficial to users and more effective in achieving their goals.
+
+**Future Directions**
+
+The study's findings have important implications for the development of AI models and the design of aggregation mechanisms. Future research should focus on exploring the potential benefits and drawbacks of aggregation, as well as the design of new mechanisms that can mitigate the risks associated with aggregation.
+
+Some potential directions for future research include:
+
+* Exploring the use of abstention mechanisms to prevent the aggregation of mediocre answers
+* Developing new choice functions that can mitigate the risks associated with non-monotonicity
+* Investigating the use of weighted winrate mechanisms to incentivize producers to create models that are better suited to specific tasks
+* Examining the potential benefits and drawbacks of aggregation in different domains, such as natural language processing or computer vision.
+
+By continuing to explore the science behind aggregation, we can create systems that are more beneficial to users and more effective in achieving their goals.",C: 0.9 ST: 0.5 (don’t need to mention all of the technical details in the method) N:0.6,0.6,0.7
+SPARTA: Scalable and Principled Benchmark of Tree-Structured Multi-hop QA over Text and Tables,"Real-world Table-Text question answering (QA) tasks require models that can reason across long text and source tables, traversing multiple hops and executing complex operations such as aggregation. Yet existing benchmarks are small, manually curated - and therefore error-prone - and contain shallow questions that seldom demand more than two hops or invoke aggregations, grouping, or other advanced analytical operations expressible in natural-language queries. We present SPARTA, an end-to-end construction framework that automatically generates large-scale Table-Text QA benchmarks with lightweight human validation, requiring only one quarter of the annotation time of HybridQA. The framework first constructs a reference fact database by enriching each source table with grounding tables whose tuples are atomic facts automatically extracted from the accompanying unstructured passages, then synthesizes nested queries whose number of nested predicates matches the desired hop count. To ensure that every SQL statement is executable and that its verbalization yields a fluent, human-sounding question, we propose two novel techniques: provenance-based refinement, which rewrites any syntactically valid query that returns a non-empty result, and realistic-structure enforcement, which confines generation to post-order traversals of the query graph. The resulting pipeline produces thousands of high-fidelity question-answer pairs covering aggregations, grouping, and deep multi-hop reasoning across text and tables. On SPARTA, state-of-the-art models that reach over 70 F1 on HybridQA or over 50 F1 on OTT-QA drop by more than 30 F1 points, exposing fundamental weaknesses in current cross-modal reasoning. Our benchmark, construction code, and baseline models are available at this https URL.",http://creativecommons.org/licenses/by/4.0/,https://arxiv.org/abs/2602.23286,https://arxiv.org/html/2602.23286,2026-02-26,"Imagine asking a question that can’t be answered by reading just a paragraph or scanning one small table—you have to combine clues from both, sometimes across huge datasets. That’s the goal of Table–Text Question Answering, and the authors argue today’s benchmarks don’t really test it. Many are hand-built, which leads to shallow questions, limited “multi-step” reasoning, and lots of labeling mistakes (their audit found error rates around 20–30%). They also rely on tiny web tables, far from real databases with thousands of rows.
+
+To fix this, the team created **SPARTA**, a new benchmark built around a single “reference fact database” that stores both table data and text broken into bite-sized facts. Then a large language model generates database-style queries that force deeper, more realistic reasoning—like grouping, filtering, and multi-branch logic—while automatic checks and a repair loop prevent empty or broken questions. A second model turns each query into a natural-language question, with quick human verification.
+
+When top QA systems that score well on older benchmarks were tested on SPARTA, their accuracy dropped by over 30 points, revealing major weaknesses in combining text and tables at scale.",,"The output preserves most major claims from the paper: it accurately states that prior Table–Text QA benchmarks are small, manually curated, error-prone (with ~21–30% audit error rates) and shallow (limited hops, few advanced ops), and that SPARTA addresses this by building a unified “reference fact database” with atomic facts from text plus tables, then generating executable nested SQL with safeguards and verbalizing to NL with lightweight human validation. It also correctly reports the key finding that strong models drop by >30 F1 points on SPARTA. However, it slightly oversimplifies/changes methods: it describes “multi-branch logic” and “automatic checks and a repair loop” generally but omits the named techniques (provenance-based refinement, realistic-structure enforcement/post-order traversal) and adds an imprecise claim about relying on “tiny web tables far from real databases with thousands of rows” (directionally true but framed more strongly than the context’s average-15-row point). Style is well-transferred into an accessible popular-science voice with clear framing and minimal jargon, and the language is fluent and coherent. Overall, minor omissions/overgeneralizations prevent a top rating.",0.8,"**How AI Struggles to Solve Complex Questions That Mix Tables and Text**
+
+Imagine you’re trying to answer a question like: *""Which NBA players born in the 1990s have won at least three championships and played for teams with a salary cap over $100 million in 2023?""* To solve this, you’d need to pull data from multiple sources—player stats, team records, and salary reports—then combine them in a way that makes sense. That’s the kind of challenge **SPARTA**, a new AI benchmark, is designed to test.
+
+Most current AI systems that answer questions using tables and text are like kids playing with building blocks: they can stack simple facts, but they struggle with complex puzzles. For example, they might handle basic questions like *""How many players are from Chicago?""* but fail when asked to compare stats across decades or filter by multiple conditions. Worse, many of these AI training datasets are riddled with errors—like questions where the answer is hidden in both the table *and* the text, even though only one source is needed.
+
+SPARTA fixes these problems by creating a **realistic, error-free testing ground**. Instead of small, handmade examples, it generates thousands of questions using a mix of NBA data, movie records, and medical datasets—all structured like a giant, searchable database. Here’s how it works:
+1. **The AI writes its own questions**—using a language model to craft SQL-like queries (the code behind database searches) that require multi-step reasoning.
+2. **It checks its own work**—if a question leads to no answer, the AI tweaks it until it’s valid.
+3. **Humans polish the final product**—grad students review the questions to ensure they’re natural and answerable.
+
+When top AI models tried SPARTA, their scores **plummeted by 30% or more** compared to simpler tests. Why? Because SPARTA forces them to:
+- **Jump between data sources** (e.g., linking player stats to team rosters).
+- **Handle complex logic** (like grouping players by decade *and* filtering by salary).
+- **Reason across large datasets** (not just tiny tables with 15 rows, but real-world databases with thousands).
+
+The takeaway? AI is still bad at solving **real-world, multi-step questions** that mix structured data (tables) and unstructured info (text). SPARTA isn’t just a harder test—it’s a wake-up call for developers to build systems that can think like humans when faced with messy, interconnected data.
+
+*(Think of it as the ""Jeopardy!"" for AI—where the clues are buried in spreadsheets and Wikipedia pages.)*",C: 0.7 (emphasis is not precise; not mentioning much on methodology and table-text QA) ST: 0.9 N: 0.8,0.7,0.7,"**The Future of Question Answering: Overcoming the Limits of Table-Text QA**
+
+Imagine asking a question that requires not just text, but also tables and other data sources to find the answer. This is the challenge of Table-Text Question Answering (QA), a crucial task in building intelligent systems that can understand and respond to complex queries. However, current Table-Text QA benchmarks have significant limitations, making it difficult to evaluate the performance of AI models.
+
+**The Problem with Current Benchmarks**
+
+Existing Table-Text QA benchmarks are plagued by shallow question design, annotation noise, and toy-scale tables. These limitations hinder the development of robust AI models that can handle real-world queries. For example, most benchmarks only include simple questions that require direct information extraction, rather than more complex queries that demand multi-step reasoning.
+
+**Introducing SPARTA: A New Benchmark Generation Framework**
+
+To address these limitations, we present SPARTA, a benchmark generation framework that unifies heterogeneous evidence inside a reference fact database. SPARTA generates logically deep, human-like SQL nested queries that can be executed on large tables, and verbalizes them into natural-language questions using an LLM-based SQL-to-text model.
+
+**How SPARTA Works**
+
+SPARTA consists of three stages:
+
+1. **Reference Fact Database Construction**: We create a unified reference fact database by merging source tables and grounding tables, which store atomic propositions as tuples for SQL-addressable access.
+2. **Query Generation**: We use a large language model (LLM) to generate executable SQL queries on the reference fact database, which vary in depth and complexity.
+3. **Question Verbalisation**: We use an LLM-based SQL-to-text model to verbalize each query into a fluent natural-language question.
+
+**Evaluating SPARTA**
+
+We evaluated SPARTA using state-of-the-art Table-Text QA models, including ODYSSEY and HProPro. Our results show that these models struggle to handle complex multi-hop query structures, analytical operations, and unstructured text. In fact, their performance drops sharply when unstructured text is required.
+
+**Conclusion**
+
+SPARTA is a significant step forward in addressing the limitations of current Table-Text QA benchmarks. By generating logically deep, human-like SQL nested queries and verbalizing them into natural-language questions, SPARTA provides a more realistic and challenging evaluation framework for AI models. Our results highlight the need for more robust cross-modal alignment and semantic grounding in Table-Text QA models, and we hope that SPARTA will inspire future research in this area.",C: 0.9 (clearly summarizes each part) ST: 0.7 N: 0.7 (a bit rigid),0.7,0.7
+"Simple Models, Real Swimming: Digital Twins for Tendon-Driven Underwater Robots","Mimicking the graceful motion of swimming animals remains a core challenge in soft robotics due to the complexity of fluid-structure interaction and the difficulty of controlling soft, biomimetic bodies. Existing modeling approaches are often computationally expensive and impractical for complex control or reinforcement learning needed for realistic motions to emerge in robotic systems. In this work, we present a tendon-driven fish robot modeled in an efficient underwater swimmer environment using a simplified, stateless hydrodynamics formulation implemented in the widespread robotics framework MuJoCo. With just two real-world swimming trajectories, we identify five fluid parameters that allow a matching to experimental behavior and generalize across a range of actuation frequencies. We show that this stateless fluid model can generalize to unseen actuation and outperform classical analytical models such as the elongated body theory. This simulation environment runs faster than real-time and can easily enable downstream learning algorithms such as reinforcement learning for target tracking, reaching a 93% success rate. Due to the simplicity and ease of use of the model and our open-source simulation environment, our results show that even simple, stateless models -- when carefully matched to physical data -- can serve as effective digital twins for soft underwater robots, opening up new directions for scalable learning and control in aquatic environments.",http://creativecommons.org/licenses/by/4.0/,https://arxiv.org/abs/2602.23283,https://arxiv.org/html/2602.23283,2026-02-26,"Fish make swimming look effortless, but copying that smooth motion in robots is hard because water pushes on every part of the body all the time. This study builds a fast “digital twin” of a soft, tendon-driven robotic fish—accurate enough to match real pool experiments, but cheap enough to run much faster than real time.
+
+The team’s robot has a rigid head and a flexible tail pulled by two tendons from a single motor, creating an S-shaped wave like real swimmers. In a 2×3 meter pool, they tracked 11 markers on the robot with a top-down camera to measure how the body bends and moves.
+
+Instead of slow, super-detailed fluid simulations, they used a simplified water model with just five tunable settings. They calibrated tail stiffness by letting the tail vibrate freely, then tuned the motor motion and water settings using only two recorded swims. The result matched new, unseen swimming speeds across many tail-beat frequencies far better than a classic textbook swimming model.
+
+Finally, they plugged the simulator into reinforcement learning, training a controller that could chase targets with a 93% success rate—showing how simple hardware plus smart control can produce surprisingly rich underwater behavior.",C: 0.9 (mention all of the points) ST: 0.7 N: 0.8,0.8,0.9,"**How a Robot Fish Learns to Swim Like a Pro—Without Crashing Into Walls**
+
+Imagine building a robot that swims like a fish—but not just *looks* like one. Real fish move with fluid grace, adjusting their bodies in ways that even the most advanced robots struggle to replicate. Now, scientists have cracked a key puzzle: how to make a soft, flexible robot swim efficiently *and* learn new tricks—all while running on a laptop.
+
+The team behind this breakthrough designed a robotic fish with a bendy tail driven by a single motor. Unlike rigid robots, this one interacts constantly with water, making every wiggle matter. To simulate its movements, they didn’t rely on expensive, slow computer fluid simulations. Instead, they used a clever shortcut: a simplified ""fluid model"" that treats the fish’s body as a series of connected segments and calculates forces based on basic physics principles (like drag and lift).
+
+Here’s the magic: **they matched the robot’s real-world swimming to their simulation using just two short video clips.** By tweaking just five key numbers (like how much water resistance the fish feels), their digital twin could predict how the robot would move at *any* speed—even ones it hadn’t practiced yet. Traditional models, like the ""elongated body theory,"" failed to generalize as well.
+
+But why stop at swimming straight? The team turned the simulation into a **training ground for artificial intelligence**. Using a technique called *reinforcement learning*, they taught the robot to chase moving targets with a **93% success rate**. The AI learned to adjust its tail movements in real time—accelerating, turning, and even following curved paths—all by experimenting in the virtual world before testing its skills in water.
+
+This isn’t just about robots. The same principles could help design better drones, prosthetic limbs, or even underwater drones for ocean exploration. And the best part? The whole system runs on a standard computer, making it accessible for researchers worldwide.
+
+The next challenge? Teaching the robot to dive, hover, or swim in 3D—not just glide along the surface. But for now, this fish is proving that **simple models, smart tuning, and a dash of AI can outperform complex (and slow) simulations**—one elegant wiggle at a time.
+
+---
+**Key Takeaways:**
+✅ **Simplified physics** (not full fluid simulations) can predict real-world robot movements.
+✅ **Two short videos** were enough to ""calibrate"" the digital twin.
+✅ **AI trained in simulation** achieved **93% success** at target tracking.
+✅ Opens doors for **cheaper, faster robot design**—without sacrificing accuracy.",C: 0.8 (unnecessary information in 1st paragraph) ST: 0.8 N: 0.8 (a bit verbose),0.8,0.8,"**Unlocking the Secrets of Underwater Swimming: A Breakthrough in Robot Design**
+
+Imagine a world where robots can swim as effortlessly as fish, navigating through the ocean with ease and precision. This may seem like science fiction, but researchers have made significant progress in developing underwater swimming robots that can mimic the natural movements of aquatic animals.
+
+**The Challenge of Underwater Swimming**
+
+Underwater swimming is a complex task that requires a deep understanding of fluid dynamics and the interactions between the robot and its surroundings. Unlike robots that move on land or in air, underwater robots must contend with the density and viscosity of water, which can make movement slow and laborious.
+
+**A New Approach to Underwater Swimming**
+
+Researchers have developed a new approach to underwater swimming that involves creating a simplified fluid model to mimic the natural movements of fish. This model, which consists of five parameters, can be used to simulate the behavior of underwater robots and predict their movements in different environments.
+
+**The Digital Twin**
+
+The researchers have created a digital twin, a simulated version of the underwater robot, which can be used to test and refine the robot's design before it is built. This digital twin is a crucial tool in the development of underwater swimming robots, allowing researchers to test different scenarios and optimize the robot's performance.
+
+**Reinforcement Learning**
+
+The researchers have also used reinforcement learning, a type of machine learning, to train the underwater robot to track target waypoints. This involves teaching the robot to learn from its experiences and adapt to new situations, allowing it to improve its performance over time.
+
+**Breakthroughs and Future Directions**
+
+The researchers have made significant breakthroughs in the development of underwater swimming robots, including the creation of a simplified fluid model and the use of reinforcement learning to train the robot. However, there are still many challenges to overcome, including the development of more expressive fluid models and the ability to control the robot's pitch and buoyancy.
+
+**Conclusion**
+
+The development of underwater swimming robots has the potential to revolutionize many fields, including oceanography, marine biology, and search and rescue operations. The breakthroughs made by the researchers in this study are an important step towards achieving this goal, and we can expect to see significant advancements in the field of underwater robotics in the coming years.",0.7,"The output does shift toward a more accessible, popular-science tone with an intro hook (“Imagine a world…”) and simplified explanations of “digital twin” and “reinforcement learning,” but it stays fairly generic and lacks vivid analogies or WIRED/NatGeo-style storytelling beyond the opener. Content preservation is partial: it captures core ideas (soft robotic fish, simplified stateless fluid model with five parameters, MuJoCo-style simulation/digital twin, RL for waypoint tracking, and mentions future work like more expressive models and pitch/buoyancy). However, it omits several major qualifiers and findings from the context, including that only two real-world trajectories were used for identification, that the model generalizes across actuation frequencies and outperforms elongated body theory, the faster-than-real-time speed, and key quantitative results like the 93% success rate (it mentions RL but not the number). It also adds somewhat unsupported broad impact claims (“revolutionize…”) not grounded in the retrieval text. Language is fluent and coherent, though somewhat repetitive and high-level compared to the detailed source.",

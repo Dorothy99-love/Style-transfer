@@ -1,26 +1,19 @@
 # Style-transfer
 My first repository on GitHub. This is a research done by a high school student on exploring how well each LLM does on transferring scientific essays to science popular articles.
 
-# ST-Bench: Scientific-to-Popular Style Transfer Benchmark
-
-My first repository on GitHub. This is a research project by a high school
-student exploring how well different LLMs perform at transferring scientific
-essays into popular-science articles aimed at high school readers.
-
 ## Overview
 
 This repository provides a rigorous evaluation of LLMs on **scientific-to-
 popular style transfer** — rewriting scientific essays so that they are
-understandable to a high school audience.
+understandable to a high school students.
 
 ## Dataset
 
 **`ST-Bench_all_domain.csv`**
 
 Contains 150 scientific essays scraped from arXiv (HTML format), spanning
-three domains — **Computer Science, Physics, and Mathematics** (50 essays
-each) — along with the corresponding LLM-generated popular-science rewrites.
-These domains were chosen to test a broad range of skills, from simplifying
+three domains: **Computer Science, Physics, and Mathematics** (50 essays
+each). These domains were chosen to test a broad range of skills, from simplifying
 complex mathematical formulas to explaining nuanced experimental results.
 
 ## Repository Structure
@@ -29,20 +22,21 @@ complex mathematical formulas to explaining nuanced experimental results.
 ├── generated_prompts/     # Style-transfer generation code
 │   ├── gpt_style_transfer.ipynb
 │   ├── Llama_style_transfer.ipynb
-│   ├── Mixtral_style_transfer.ipynb   # <!-- confirm: rename to Ministral? -->
+│   ├── Mixtral_style_transfer.ipynb
 │   └── transfer_prompt.py
 ├── LLM_judgesv1/           # Automated scoring
 │   ├── gpt_as_judge.ipynb
 │   ├── llama_as_judge.ipynb
-│   ├── claude_as_judge.ipynb          # not yet run (no API access)
+│   ├── claude_as_judge.ipynb        # not yet run (no API access)
 │   ├── G_Eval_gpt.ipynb
 │   ├── G_Eval_claude.ipynb
 │   ├── GEval_prompt.py
 │   └── prompt.py
-├── score_analysis/
-│   └── cohen_kappa_score.ipynb
 ├── test_results/
 │   └── results_<LLM>_all.csv
+│   └── results_gpt_rate_<LLM>.csv
+│   └── results_gpt_geval_rate_<LLM>.csv
+│   └── manual_rating.csv
 ├── pipeline.py
 ├── unit_test_pipeline.py
 └── ST-Bench_all_domain.csv
@@ -50,13 +44,15 @@ complex mathematical formulas to explaining nuanced experimental results.
 
 ## Generator Models
 
-Three models were used to generate the popular-science rewrites:
+To compare *model families* (not model generations), the three generators
+use current-generation models from each family rather than mixing a
+frontier model with legacy open-weight ones.
 
-| Model | Provider | Notes |
-|---|---|---|
-| GPT-5.2 | OpenAI | Requires OpenAI API key |
-| Llama-3.1-8B | Meta | Requires Hugging Face API key |
-| Ministral-3-8B | Mistral | Requires Hugging Face API key |
+| Family | Model | Generation | Notes |
+|--------|-------|------------|-------|
+| OpenAI | GPT-5.2 (frontier API model) | late-2025/2026 | Requires OpenAI API key. |
+| Meta | `Llama-3.1-8B-Instruct` | Llama 3.1, Jul 2024 | Requires Hugging Face API key. Llama 4 can not be used in a Google Colab environment due to memory constraints.(4-bit, Unsloth) |
+| Mistral | `mistralai/Ministral-3-8B-Instruct-2512` | Ministral 3, Dec 2025 | Current generation of the same 8B-dense line as the original Ministral-8B; still runnable in 4-bit. Requires Hugging Face API key. |
 
 Model outputs are saved to `results_<LLM>_all.csv` in `test_results/`.
 
@@ -71,10 +67,10 @@ All experiments were run on **Google Colab**.
 
 Rewrites are scored using two approaches:
 
-- **Likert scale (1–5)** — discrete, scored by GPT-5.2
-- **G-Eval (0.0–1.0)** — continuous, fine-grained
+- **Likert scale (1–5)** 
+- **G-Eval (0.0–1.0)** 
 
-Both are based on the same three criteria (see prompts in `LLM_judgesv1/`),
+Both are based on the same three criteria (see prompts in `LLM_judges/`),
 combined into a final overall score. The Likert scoring additionally reports
 each criterion individually:
 
@@ -93,52 +89,35 @@ to lack of API access.
 To validate the reliability of the automated LLM scoring, 9 articles per
 model (3 each from Math, Physics, and CS) were manually rated.
 
-## Results
+### Results
 
 | Model | Strengths | Weaknesses |
 |---|---|---|
-| GPT-5.2 | Extremely strong summarization; high information density per sentence | Often leaves jargon unexplained |
-| Ministral-3-8B | Frequent, effective analogies; most understandable to a general reader | Tends to be verbose |
-| Llama-3.1-8B | Adds more detail on methods/findings than Ministral | Longer than GPT; reads less like genuine popular science |
+| GPT-5.2 | Extremely strong at concise and accurate summarization; high information density | Often leaves jargon unexplained |
+| Ministral-3-8B | Effective and interesting analogies; most understandable to a general reader | A bit verbose and excess the word limit|
+| Llama-3.1-8B | Adds more detail on methods/findings | Excess the word limit; reads less like genuine popular science |
 
-## Limitations & Reflection
+### Limitations & Reflection
 
-As a non-expert in the source material, manual Content Preservation ratings
+As a non-expert in the scientific fields, manual Content Preservation ratings
 are likely less reliable than the LLM judges'. Style Transfer Intensity
-ratings were based on how well the rater personally understood each
-response, making them inherently subjective; Language Naturalness ratings
-were based on how "human-written" a response felt, which is similarly
+ratings were based on how well I personally understood each
+response, making them inherently subjective. Language Naturalness ratings
+were based on how "human-written" a response felt, which is also
 subjective.
 
 Notably, manual scores for Ministral-3-8B diverged substantially from the
-LLM judges' scores. In several cases, its rewrites took the rater from not
-understanding the abstract at all to genuinely understanding the paper's
-core contribution — arguably fulfilling the benchmark's goal of making
-advanced science accessible to a high-school reader. The LLM judges, by
-contrast, appeared to weight factual/detail accuracy more heavily. This
-discrepancy highlights a deeper open question: what should matter most in
-scientific-to-popular style transfer, and how can rigorous, quantitative
+LLM judges' scores. In several cases, its rewrites made me understand  the paper's
+core contribution even if I previously didn't understand what the abstract was talking about.
+This fulfilled the benchmark's primary goal of making advanced science accessible to a high-school reader. 
+By comparison, I think the LLM judges appeared to weigh factual accuracy more heavily and thus caused the
+discrepany. This invoked me of an open question: what should matter most in
+scientific-to-popular style transfer? How can rigorous, quantitative
 scoring capture the more intuitive, human sense of what makes a piece of
-writing truly understandable?
+knowledge truly understandable?
 
 ## Acknowledgements
 
-The use of Inspirit AI resources — the ChatGPT API and a Google Colab A100
-machine — is acknowledged. Thanks to Mia Gancayco for her guidance and
+The use of Inspirit AI resources including the ChatGPT API and a Google Colab A100
+machine is acknowledged. Thanks to Mia Gancayco for her guidance and
 support throughout this project.
-
-
-## Generator models
-
-To compare *model families* (not model generations), the three generators use
-current-generation models from each family rather than mixing a frontier model
-with legacy open-weight ones (audit issue H10):
-
-| Family  | Model                                              | Generation       | Notes |
-|---------|----------------------------------------------------|------------------|-------|
-| OpenAI  | GPT (frontier API model)                           | late-2025/2026   | Set the exact model name in `gpt_style_transfer.ipynb`. |
-| Meta    | `Llama-4-Scout-17B-16E-Instruct` (4-bit, Unsloth)  | Llama 4, Apr 2025| MoE (17B active / 109B total); ~55 GB in 4-bit, needs an A100 80GB / H100 — will **not** fit a free Colab T4. |
-| Mistral | `mistralai/Ministral-3-8B-Instruct-2512`           | Ministral 3, Dec 2025 | Current generation of the same 8B-dense line as the original Ministral-8B; still runnable in 4-bit. |
-
-Llama 4 is MoE-only (no small dense 8B), so restoring Meta-family generation
-parity requires the larger Scout checkpoint and more GPU than the prior 8B model.
