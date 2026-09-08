@@ -11,10 +11,14 @@ understandable to a high school students.
 
 **`ST-Bench_all_domain.csv`**
 
-Contains 150 scientific essays scraped from arXiv (HTML format), spanning
+Contains 150 CC-BY licensed scientific essays scraped from arXiv (HTML format), spanning
 three domains: **Computer Science, Physics, and Mathematics** (50 essays
 each). These domains were chosen to test a broad range of skills, from simplifying
-complex mathematical formulas to explaining nuanced experimental results.
+complex mathematical formulas to explaining nuanced experimental results. The dates of the articles 
+are between 2026/2/24 to 2026/2/26 in the ArXiv ‘recent’ section to mitigate 
+data contamination. Additionally, users can apply our codes to scrape the latest arXiv entries and continuously 
+expand the benchmark, ensuring the benchmark remains challenging
+for future models. 
 
 ## Repository Structure
 
