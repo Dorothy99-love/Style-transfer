@@ -54,9 +54,9 @@ frontier model with legacy open-weight ones.
 
 | Family | Model | Generation | Notes |
 |--------|-------|------------|-------|
-| OpenAI | GPT-5.2 (frontier API model) | late-2025/2026 | Requires OpenAI API key. |
-| Meta | `Llama-3.1-8B-Instruct` | Llama 3.1, Jul 2024 | Requires Hugging Face API key. Llama 4 can not be used in a Google Colab environment due to memory constraints.(4-bit, Unsloth) |
-| Mistral | `mistralai/Ministral-3-8B-Instruct-2512` | Ministral 3, Dec 2025 | Current generation of the same 8B-dense line as the original Ministral-8B; still runnable in 4-bit. Requires Hugging Face API key. |
+| OpenAI | `ChatGPT-5.2` | late-2025/2026 | Requires OpenAI API key. |
+| Meta | `Llama-3.1-8B` | Llama 3.1, Jul 2024 | Requires Hugging Face API key. Llama 4 can not be used in a Google Colab environment due to memory constraints.(4-bit, Unsloth) |
+| Mistral | `Ministral-3-8B` | Ministral 3, Dec 2025 | Current generation of the same 8B-dense line as the original Ministral-8B; still runnable in 4-bit. Requires Hugging Face API key. |
 
 Model outputs are saved to `results_<LLM>_all.csv` in `test_results/`.
 
