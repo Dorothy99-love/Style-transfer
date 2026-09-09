@@ -65,7 +65,7 @@ Model outputs are saved to `results_<LLM>_all.csv` in `test_results/`.
 All experiments were run on **Google Colab**.
 
 - `generated_prompts/` — requires an **A100 GPU** (source essays are long)
-- `LLM_judgesv1/` — CPU only
+- `LLM_judges/` — CPU only
 
 ## Evaluation
 
