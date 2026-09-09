@@ -3,7 +3,7 @@ My first repository on GitHub. This is a research done by a high school student 
 
 ## Overview
 
-This repository provides a rigorous evaluation of LLMs on **scientific-to-
+This repository provides an evaluation of LLMs on **scientific-to-
 popular style transfer** — rewriting scientific essays so that they are
 understandable to a high school students.
 
@@ -118,7 +118,7 @@ By comparison, I think the LLM judges appeared to weigh factual accuracy more he
 discrepany. This invoked me of an open question: what should matter most in
 scientific-to-popular style transfer? How can rigorous, quantitative
 scoring capture the more intuitive, human sense of what makes a piece of
-knowledge truly understandable?
+knowledge truly understandable? Therefore, future work will lie in the exploration of more rigorous metrics to evaluate LLMs' responses, and the expansion of the essay range into different languages.
 
 ## Acknowledgements
 
