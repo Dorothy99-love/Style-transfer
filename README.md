@@ -122,6 +122,4 @@ knowledge truly understandable? Therefore, future work will lie in the explorati
 
 ## Acknowledgements
 
-The use of Inspirit AI resources including the ChatGPT API and a Google Colab A100
-machine is acknowledged. Thanks to Mia Gancayco for her guidance and
-support throughout this project.
+The use of Inspirit AI resources including the ChatGPT API and a Google Colab A100 machine is acknowledged. The assistance and guidance provided by Mia Gancayco throughout the research project are also gratefully acknowledged.
